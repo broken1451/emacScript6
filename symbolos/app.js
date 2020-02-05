@@ -3,6 +3,7 @@ nombre a propiedades y asi asegurarse de no colisionar con los nombres
 de otras propiedades de otros elementos q esten en otras librerias o inclusive 
 en la misma o mismo codigo*/
 
+// los simbolos no tienen constructor
 let primerNombre =  Symbol()
 let segundoNombre =  Symbol()
 let persona = {
@@ -41,6 +42,30 @@ console.log('===============================');
 console.log('segundoNombre' in persona);
 console.log( persona[segundoNombre]);
 
+console.log('===============================');
+
+// 1) tienes pasion por la informatica
+//     si
+
+// 2) tienes capacidad para aprender por ti mismo ?
+//     si
+
+// 3) cuando programas pasa el tiempo rapido ?
+//     si
+
+// 4) curiosidad por como saber como funcionan las ConstantSourceNode
+//     si
+
+// 5) encuentras el camino para resolver problemas  
+//     no
+
+// 6) frikismo 
+//     si
+
+// 7) tienes hambre de aprendizaje 
+//     si
+// paciencia, autoaprendizaje, hambre de aprendizaje, atencion a los detalles,capacidad de relacionar conceptos(base datos,etc)
+// pasion por esto, creatividad, curiosidad 
 
 
 
